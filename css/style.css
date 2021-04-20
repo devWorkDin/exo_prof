@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem 'Roboto', sans-serif;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,p,figure,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+button{
+    padding: 0;
+    font-size: inherit;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+header{
+
+    background-color: #222;
+
+
+}
+
+header h1{
+    text-align: center;
+    color: #fff;
+    line-height: 6.5rem;
+    font-weight: 400;
+
+}
+main,footer{
+    max-width: 80rem;
+    margin: 1rem auto;
+}
+main section h2{
+    font-weight: 300;
+    line-height: 6.5rem;
+    text-align: center;
+}
+
+main section p{
+    line-height: 2.6rem;
+    border-left:solid .3rem rgba(20, 131, 165, 0.589);
+    padding: .5rem;
+}
+.warning{
+    color: rgb(255, 255, 255);
+    background: rgb(20, 131, 165);
+    display: inline-block;
+    text-align: center;
+    line-height: 4rem;
+    width: 20rem;
+    margin: 1rem 1rem 0 0 ;
+}
+
+main figure{
+    background: #fafafa00;
+    border: solid .1rem #ccc;
+    padding: .5rem;
+    box-shadow: 0 0 1.0rem #ccc;
+
+}
+main figure figcaption h2{
+    line-height: 4.5rem;
+    text-align: center;
+    font-weight: 400;
+}
+main figure img{
+    display: block;
+    max-width:100%;
+    margin: 0 auto;
+}
+main hr{
+    width: 50%;
+    border: 0;
+    height: .1rem;
+    background: #ccc;
+    margin: 5rem auto;
+}
+
+main figure figcaption p a{
+    color: rgb(38, 141, 155);
+    text-decoration: underline;
+}
+section ul li{
+    line-height: 3rem;
+    padding: .5rem;
+    background: #222;
+    color: #FFFF;
+    margin-bottom: .1rem;
+    text-transform: capitalize;
+}
+main p{
+line-height:   2.6rem;
+}
